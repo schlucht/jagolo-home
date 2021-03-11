@@ -1,0 +1,7 @@
+@use '../scss/abstracts/variables' as var;
+@use 'sass:color';
+$clr-primary: yellow;
+p {
+  color: var.$clr-primary;
+  background-color: color.scale($clr-primary, $lightness: 65%);
+}
