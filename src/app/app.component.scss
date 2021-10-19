@@ -3,5 +3,5 @@
 $clr-primary: yellow;
 p {
   color: var.$clr-primary;
-  background-color: color.scale($clr-primary, $lightness: 65%);
+  background-color: color.scale($clr-primary, $lightness: 85%);
 }

@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @use "scss/abstracts" as a;
+@use "scss/base" as base;
 
 body {
   background-color: a.$clr-bg;
+  font-family: a.$font-default;
 }
