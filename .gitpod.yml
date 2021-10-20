@@ -1,0 +1,4 @@
+tasks:
+  - name: Start
+    init: npm install
+    command: npm start
